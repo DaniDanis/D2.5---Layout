@@ -1,11 +1,21 @@
 body {
+    width: 100vw;
     background-color: blueviolet;
 }
 
+.background {
+    background-image: url(imgs/background-foods-v4.png)
+    
+}
 .cabecalho {
     text-align: center;
     margin: 100px auto;
     padding: 30px;
+    color: white;
+}
+
+.logo {
+    width: 15%;
 }
 
 .conteudo {
@@ -16,9 +26,43 @@ body {
     border-radius: 10px;
 }
 
+
+.navigation li{
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+.navigation li a:active {
+    color: red;
+}
+
 .FotoPerfil {
     border-radius: 100%;
-    width: 10%;
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.font_media {
+    font-size: 1.7rem;
+}
+
+.titulo {
+    font-size: 1.9rem;
+    margin-top: 50px;
 }
 
 .imagens {
