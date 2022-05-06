@@ -5,8 +5,9 @@ body {
 }
 
 .background {
-    background-image: url(imgs/background-foods-v4.png);
+    background-image: url(../imgs/background-foods-v4.png);
     background-color: #2e2d4c;  
+    background-attachment: fixed;
 }
 .cabecalho {
     text-align: center;
