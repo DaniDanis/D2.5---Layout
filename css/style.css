@@ -96,3 +96,21 @@ body {
     list-style-type: none;
 }
 
+.botao_inicio {
+    position: sticky;
+    width: 48px;   
+    background-color: white;
+    border-radius: 100%;
+   
+    position: fixed;
+    bottom: 20px;
+    left: 94%;
+    opacity: 0.5;
+}
+
+.mudar_cor {
+    color: gray;
+    background-color: #2e2d4c;
+    border-radius: 100%;
+}
+
