@@ -120,7 +120,20 @@ body {
 
 .habilidades progress {
     accent-color: #2e2d4c;
-    height: 35px;
-    
+    height: 35px;    
+}
+
+.final_pagina {
+    background-color: #1b1a2f;
+    width: 100%;
+}
+.texto {
+    display: block;
+    color: white;
+    background-color: #1b1a2f;
+    width: 370px;
+    margin: auto;
+    font-size: 25px;
+    padding: 150px;
 }
 
