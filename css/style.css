@@ -100,8 +100,7 @@ body {
     position: sticky;
     width: 48px;   
     background-color: white;
-    border-radius: 100%;
-   
+    border-radius: 100%;   
     position: fixed;
     bottom: 20px;
     left: 94%;
@@ -112,5 +111,16 @@ body {
     color: gray;
     background-color: #2e2d4c;
     border-radius: 100%;
+}
+
+.habilidades label {
+    display: inline-block;
+    width: 100px;
+}
+
+.habilidades progress {
+    accent-color: #2e2d4c;
+    height: 35px;
+    
 }
 
