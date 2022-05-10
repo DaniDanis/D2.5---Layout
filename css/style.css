@@ -35,15 +35,19 @@ body {
     border-radius: 10px;
 }
 
+.navigation ul {
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
 
 .navigation li{
     display: inline-block;
     width: 150px;
     font-size: 1.2rem;
     text-transform: uppercase;
-    padding: 20px;
-    padding-bottom: 50px;
 }
+
+
 
 .navigation li a:link,
 .navigation li a:visited {
