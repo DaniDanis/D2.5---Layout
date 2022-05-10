@@ -137,3 +137,18 @@ body {
     padding: 150px;
 }
 
+.icones_final {
+    width: 225px;
+    margin: auto;
+    font-size: 45px;
+}
+
+.botoes {
+    font-size: 1.7rem;
+    border: none;
+    background-color: transparent;
+}
+
+.botoes:hover {
+    background-color: antiquewhite;
+}
