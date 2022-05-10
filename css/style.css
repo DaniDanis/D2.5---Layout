@@ -129,7 +129,7 @@ body {
 
 .habilidades label {
     display: inline-block;
-    width: 100px;
+    width: 120px;
 }
 
 .habilidades progress {
@@ -145,10 +145,12 @@ body {
     display: block;
     color: white;
     background-color: #1b1a2f;
-    width: 370px;
+    width: 27%;
     margin: auto;
     font-size: 25px;
-    padding: 150px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
 }
 
 .icones_final {
