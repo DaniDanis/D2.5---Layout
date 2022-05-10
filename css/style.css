@@ -43,7 +43,7 @@ body {
 
 .navigation li{
     display: inline-block;
-    width: 150px;
+    min-width: 150px;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
@@ -67,7 +67,8 @@ body {
 
 .FotoPerfil {
     border-radius: 100%;
-    width: 210px;
+    max-width: 210px;
+    width: 100%;
     float: left;
     padding: 15px;
     margin-right: 20px;
@@ -86,8 +87,7 @@ body {
 
 .imagens {
     display: inline-block;
-    width: 450px;
-    height: 240px;
+    width: 100%;
     margin-left: 1.5%;
     margin-bottom: 1.5%;
     border-radius: 2%;
@@ -101,7 +101,8 @@ body {
 
 .fotosPortfolio {
     display: inline-block;
-    max-width: 932px;
+    max-width: 75%;
+    min-width: 150px;
     margin: auto;
 }
 
@@ -184,4 +185,36 @@ body {
     margin-right: 50%;
     margin-top: -50px;
     transform: translateX(50%) rotate(45deg);
+}
+
+@media (max-width:320px) {
+    .navigation li{
+        font-size: 0.8rem;
+    }    
+    .titulo {
+        font-size: 1.2rem;
+    }
+    .font_media {
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+    }
+    .botoes {
+        font-size: 0.7rem;
+    }
+    .texto {
+        width: 200px;
+        margin: auto;
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .icones_final {
+        font-size: 2.5rem;
+    }
+    .texto .font_media {
+        font-size: 0.7rem;
+    }
+    .botao_inicio {
+        left: 80%;
+    }
 }
