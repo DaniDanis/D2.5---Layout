@@ -1,7 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body {
-    width: 100vw;
     margin: 0px;
-    
+    font-family: "Lora", serif;    
 }
 
 .background {
@@ -35,6 +41,8 @@ body {
     width: 150px;
     font-size: 1.2rem;
     text-transform: uppercase;
+    padding: 20px;
+    padding-bottom: 50px;
 }
 
 .navigation li a:link,
@@ -151,4 +159,24 @@ body {
 
 .botoes:hover {
     background-color: antiquewhite;
+}
+
+.logotipo {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 1;
+    font-size: 2rem;
+    padding-top: 10px;
+    color: #1b1a2f;
+}
+
+.logomarca {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 50%;
+    margin-top: -50px;
+    transform: translateX(50%) rotate(45deg);
 }
